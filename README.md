@@ -1,20 +1,15 @@
-# shellmark
-Shellcode based software watermarking
-[This tool is accepted in CoDS-COMAD 2019 conference as a demo track [Tier 2 conference].
-Shellmark: software watermarking tool.
-Authors: Ayan Dey, Rahul Dutta, Sukriti Bhattacharya, Nabendu Chaki
-(c) Ayan dey, 2019
-
+# Shellmark-Tool
 IMP: Run the tool as Root user
 
 Prerequisities:
 
-OS: Linux x86 ubuntu
-Processor: Intel
-Language support: Python 2.7, C
-Compiler: gcc
-Disassembler: NASM, objdump
-Dynamic instrumentation tool: Intel Pintools
+    OS: Linux x86 ubuntu
+    Processor: Intel
+    Language support: Python 2.7, C
+    Compiler: gcc
+    Disassembler: NASM, objdump
+    Dynamic instrumentation tool: Intel Pintools
+
 Cudf identifier usage:
 
 root@linux:# ./cudf_identifer -h
